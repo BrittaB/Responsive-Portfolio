@@ -215,3 +215,39 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+/*
+ The wrapper at 980px
+*/
+@media screen and (max-width: 980px){
+#masthead{
+  width:980px;
+}
+#main-container{
+  width:980px;
+}
+}
+/*
+The wrapper at 768px
+*/
+@media screen and (max-width: 768px) {
+ #masthead{
+    width:768px;
+ }
+ #main-container{
+    width:768px;
+ }
+ /*
+ The Wrapper at 640px
+ */
+}
+@media screen and (max-width: 640px){
+  #masthead{
+    width:640px;
+  }
+
+  #main-container{
+    width:640px;
+  }
+}
